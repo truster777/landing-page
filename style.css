@@ -22,17 +22,17 @@ header {
 }
 
 .logo {
-    margin-left: 100px;
-    /* margin-top: 35px; */
+    margin-left: 350px;
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 
     
 }
 
 .nav {
     margin-right: 100px;
-    margin-top:40px;
+    margin-top:30px;
 }
 
 .link {
@@ -46,6 +46,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    margin-left: 250px;
 }
 
 
@@ -54,6 +55,7 @@ header {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 0;
 }
 
 .main-info {
@@ -64,7 +66,7 @@ header {
 .secondary-hero {
     font-size: 18px; 
     color: #E5E7EB;
-    margin-top: -15px;
+
 
 }   
 
@@ -76,4 +78,121 @@ header {
     border: none;
     border-radius: 10px;
     font-weight: 900;
+    margin-top: 15px;
+}
+
+.placeholder {
+    margin-right: 250px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.square {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius:20px;
+}
+
+.subtext {
+    display: block;
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    margin-top: 10px;
+    color: gray;
+    font-weight: 10px;
+}
+
+.quote-div {
+    flex-direction: column;
+    display: flex;
+    height: 400px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote {
+    display: block;
+    font-size: 36px;
+    color: #1F2937; 
+    font-weight: 300;
+    padding-left: 495px;
+    padding-right: 495px;
+}
+
+.author {
+    padding-left: 600px;
+    font-size: 25px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+.cta-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+    height: 150px;
+    background-color: #3882F6;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.cta-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cta-header {
+    display: block;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.cta-button {
+    width: 125px;
+    height: 40px;
+    border: 2px solid #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color:#E5E7EB;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB
 }
